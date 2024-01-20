@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version 3.2.2
 
-Things you may want to cover:
+* You can install everything you need for this project by running `bundle install` `rails db:seed` then `rails server` or `rails s`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* This is a simple application that contains Movies, Users, Authentication, Favourites, Genres, Reviews. This project also contains scopes, custom urls through slugs, admin functionality and session data.

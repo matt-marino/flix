@@ -19,7 +19,6 @@ class UsersController < ApplicationController
   end
 
   def create
-    byebug
     user = User.find_by(email: params[:email_or_username]) ||
       User.find_by(username: params[:email_or_username])
     if @user.save

@@ -3,7 +3,6 @@ class SessionsController < ApplicationController
   end
 
   def create
-    byebug
     user = User.find_by(email: params[:email_or_username])
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id

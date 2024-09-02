@@ -22,7 +22,10 @@ class MoviesController < ApplicationController
 
   def update
     if @movie.update(movie_params)
-      redirect_to(@movie, notice: "Movie successfully updated!")
+      respond_to do |format|
+        format.turbo_stream
+        format.html { render(:edit) }
+      end
     else
       render(:edit, status: :unprocessable_entity)
     end
@@ -43,7 +46,7 @@ class MoviesController < ApplicationController
 
   def destroy
     @movie.destroy
-    redirect_to(movies_url, status: :see_other, alert: "Movie successfully deleted!")
+    flash.now[:alert] = "Movie successfully deleted!"
   end
 
   private

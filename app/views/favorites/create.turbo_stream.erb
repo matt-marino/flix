@@ -1,0 +1,7 @@
+<%= turbo_stream.update "fans-#{@movie.id}" do %>
+  <%= render(partial: "movies/fans", locals: { movie: @movie }) %>
+<% end %>
+
+<%= turbo_stream.update "favorite-#{@movie.id}" do %>
+  <%= render(partial: "movies/favorite", locals: { movie: @movie }) %>
+<% end %>

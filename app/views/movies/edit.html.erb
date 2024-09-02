@@ -1,2 +1,4 @@
 <h1>Editing <%= @movie.title %></h1>
-<%= render "form", movie: @movie %>
+<%= turbo_frame_tag @movie do %>
+  <%= render "form", movie: @movie %>
+<% end %>

@@ -1,0 +1,5 @@
+<%= turbo_stream.remove @movie %>
+
+<%= turbo_stream.update "selected-movie" do %>
+  <p>Please select a movie from the list</p>
+<% end %>

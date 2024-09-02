@@ -1,0 +1,19 @@
+<% if movie.fans.present? %>
+  <h4>Fans</h4>
+  <ul>
+    <% movie.fans.each do |user| %>
+      <li>
+        <%= profile_image(user, 35) %>
+        <%= link_to(user.name, user, data: { turbo_frame: "_top" }) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+<% if movie.genres.order(:name).present? %>
+  <h4>Genres</h4>
+  <ul>
+    <% movie.genres.order(:name).each do |genre| %>
+      <li><%= link_to(genre.name, genre_path(genre)) %></li>
+    <% end %>
+  </ul>
+<% end %>

@@ -3,18 +3,22 @@ class FavoritesController < ApplicationController
   before_action :set_movie
 
   def create
-    @movie = Movie.find_by!(slug: params[:movie_id])
     @movie.favorites.create!(user: current_user)
 
-    redirect_to @movie
+    respond_to do |format|
+      format.turbo_stream
+      format.html { redirect_to @movie }
+    end
   end
 
   def destroy
     favorite = current_user.favorites.find(params[:id])
     favorite.destroy
 
-    movie = Movie.find(params[:movie_id])
-    redirect_to movie
+    respond_to do |format|
+      format.turbo_stream
+      format.html { redirect_to @movie }
+    end
   end
 
   private

@@ -1,24 +1,29 @@
-<% @movies.each do |movie| %>
-  <section class="movie">
-    <div class="image">
-      <%= main_image(movie) %>
+<div class="container">
+  <div class="row">
+    <div class="col-2 scrollable">
+      <% @movies.each do |movie| %>
+        <%= turbo_frame_tag movie do %>
+          <section class="movie">
+            <div class="image vstack row-gap-2">
+              <%= link_to(movie_path(movie), turbo_method: :get, data: { turbo_stream: true }) do %>
+                <%= main_image(movie) %>
+              <% end %>
+              <%= turbo_frame_tag "favorite-#{movie.id}" do %>
+                <%= render(partial: "favorite", locals: { movie: movie }) %>
+              <% end %>
+            </div>
+          </section>
+        <% end %>
+      <% end %>
     </div>
-    <div class="summary">
-      <h2>
-        <%= link_to(movie.title, movie_path(movie)) %>
-      </h2>
-      <h3>
-        <%= total_gross(movie) %>
-      </h3>
-      <span class="stars">
-        <%= render "shared/stars", percent: movie.average_stars_as_percent %>
-      </span>
-      <p>
-        <%= truncate(movie.description, length: 150, separator: ' ') %>
-      </p>
+    <div class="col-10">
+      <%= turbo_frame_tag "selected-movie" do %>
+        <p>Please select a movie from the list</p>
+      <% end %>
     </div>
-  </section>
-<% end %>
+  </div>
+</div>
+
 
 <% if current_user_admin? %>
   <section class="admin">

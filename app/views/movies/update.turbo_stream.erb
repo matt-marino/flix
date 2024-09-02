@@ -1,0 +1,3 @@
+<%= turbo_stream.update "selected-movie" do %>
+  <%= render(partial: "movies/movie", locals: { movie: @movie }) %>
+<% end %>

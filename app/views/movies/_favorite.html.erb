@@ -1,0 +1,3 @@
+<div class="faves">
+  <%= fave_or_unfave_button(movie, current_user.favorites.find_by(movie_id: movie.id)) %>
+</div>

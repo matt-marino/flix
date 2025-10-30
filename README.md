@@ -1,6 +1,6 @@
 # README
 
-* Ruby version 3.2.2
+* Ruby version 3.4.4
 
 * You can install everything you need for this project by running `bundle install` `rails db:seed` then `rails server` or `rails s`
 

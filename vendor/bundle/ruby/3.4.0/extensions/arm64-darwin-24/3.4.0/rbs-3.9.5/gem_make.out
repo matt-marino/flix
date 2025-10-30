@@ -4,10 +4,10 @@ checking for whether -std=gnu99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-m91ijk sitelibdir\=./.gem.20251024-21268-m91ijk clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-aptxl sitelibdir\=./.gem.20251029-34278-aptxl clean
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-m91ijk sitelibdir\=./.gem.20251024-21268-m91ijk
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-aptxl sitelibdir\=./.gem.20251029-34278-aptxl
 compiling ./../../src/constants.c
 compiling ./../../src/ruby_objs.c
 compiling ./../../src/util/rbs_constant_pool.c
@@ -21,8 +21,8 @@ compiling unescape.c
 linking shared-object rbs_extension.bundle
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-m91ijk sitelibdir\=./.gem.20251024-21268-m91ijk install
-/usr/bin/install -c -m 0755 rbs_extension.bundle ./.gem.20251024-21268-m91ijk
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-aptxl sitelibdir\=./.gem.20251029-34278-aptxl install
+/usr/bin/install -c -m 0755 rbs_extension.bundle ./.gem.20251029-34278-aptxl
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/rbs-3.9.5/ext/rbs_extension
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-m91ijk sitelibdir\=./.gem.20251024-21268-m91ijk clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-aptxl sitelibdir\=./.gem.20251029-34278-aptxl clean

@@ -3,16 +3,16 @@ current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-zm072u sitelibdir\=./.gem.20251024-21268-zm072u clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-9ct6lq sitelibdir\=./.gem.20251029-34278-9ct6lq clean
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-zm072u sitelibdir\=./.gem.20251024-21268-zm072u
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-9ct6lq sitelibdir\=./.gem.20251029-34278-9ct6lq
 compiling cruby.c
 linking shared-object skiptrace/internal/cruby.bundle
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-zm072u sitelibdir\=./.gem.20251024-21268-zm072u install
-/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20251024-21268-zm072u/skiptrace/internal
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-9ct6lq sitelibdir\=./.gem.20251029-34278-9ct6lq install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20251029-34278-9ct6lq/skiptrace/internal
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-zm072u sitelibdir\=./.gem.20251024-21268-zm072u clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-9ct6lq sitelibdir\=./.gem.20251029-34278-9ct6lq clean

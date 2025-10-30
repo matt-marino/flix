@@ -16,16 +16,16 @@ checking for ttyname_r()... yes
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-2i5zds sitelibdir\=./.gem.20251024-21268-2i5zds clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-wg4zqh sitelibdir\=./.gem.20251029-34278-wg4zqh clean
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-2i5zds sitelibdir\=./.gem.20251024-21268-2i5zds
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-wg4zqh sitelibdir\=./.gem.20251029-34278-wg4zqh
 compiling console.c
 linking shared-object io/console.bundle
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-2i5zds sitelibdir\=./.gem.20251024-21268-2i5zds install
-/usr/bin/install -c -m 0755 console.bundle ./.gem.20251024-21268-2i5zds/io
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-wg4zqh sitelibdir\=./.gem.20251029-34278-wg4zqh install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20251029-34278-wg4zqh/io
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-2i5zds sitelibdir\=./.gem.20251024-21268-2i5zds clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-wg4zqh sitelibdir\=./.gem.20251029-34278-wg4zqh clean

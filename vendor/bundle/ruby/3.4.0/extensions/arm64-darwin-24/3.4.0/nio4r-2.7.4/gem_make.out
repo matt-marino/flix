@@ -14,10 +14,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-56ufyj sitelibdir\=./.gem.20251024-21268-56ufyj clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-gyln2h sitelibdir\=./.gem.20251029-34278-gyln2h clean
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-56ufyj sitelibdir\=./.gem.20251024-21268-56ufyj
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-gyln2h sitelibdir\=./.gem.20251029-34278-gyln2h
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -360,8 +360,8 @@ compiling selector.c
 linking shared-object nio4r_ext.bundle
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-56ufyj sitelibdir\=./.gem.20251024-21268-56ufyj install
-/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20251024-21268-56ufyj
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-gyln2h sitelibdir\=./.gem.20251029-34278-gyln2h install
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20251029-34278-gyln2h
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-56ufyj sitelibdir\=./.gem.20251024-21268-56ufyj clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-gyln2h sitelibdir\=./.gem.20251029-34278-gyln2h clean

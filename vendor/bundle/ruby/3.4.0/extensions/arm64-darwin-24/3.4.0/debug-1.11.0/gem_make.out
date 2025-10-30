@@ -3,17 +3,17 @@ current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-mwrwan sitelibdir\=./.gem.20251029-34278-mwrwan clean
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-mwrwan sitelibdir\=./.gem.20251029-34278-mwrwan
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.bundle
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz install
-/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251024-21268-d1xjzz/debug
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-mwrwan sitelibdir\=./.gem.20251029-34278-mwrwan install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251029-34278-mwrwan/debug
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-mwrwan sitelibdir\=./.gem.20251029-34278-mwrwan clean

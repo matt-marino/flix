@@ -6,13 +6,13 @@ checking for yaml_get_version() in -lyaml... yes
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-mpjabu sitelibdir\=./.gem.20251024-21268-mpjabu clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-bvvdcm sitelibdir\=./.gem.20251029-34278-bvvdcm clean
 cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
 /bin/sh: line 0: cd: libyaml: No such file or directory
 make: [clean-so] Error 1 (ignored)
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-mpjabu sitelibdir\=./.gem.20251024-21268-mpjabu
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-bvvdcm sitelibdir\=./.gem.20251029-34278-bvvdcm
 compiling psych.c
 compiling psych_emitter.c
 compiling psych_parser.c
@@ -22,11 +22,11 @@ linking shared-object psych.bundle
 ld: warning: ignoring duplicate libraries: '-lyaml'
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-mpjabu sitelibdir\=./.gem.20251024-21268-mpjabu install
-/usr/bin/install -c -m 0755 psych.bundle ./.gem.20251024-21268-mpjabu
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-bvvdcm sitelibdir\=./.gem.20251029-34278-bvvdcm install
+/usr/bin/install -c -m 0755 psych.bundle ./.gem.20251029-34278-bvvdcm
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/psych-5.2.6/ext/psych
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-mpjabu sitelibdir\=./.gem.20251024-21268-mpjabu clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-bvvdcm sitelibdir\=./.gem.20251029-34278-bvvdcm clean
 cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
 /bin/sh: line 0: cd: libyaml: No such file or directory
 make: [clean-so] Error 1 (ignored)

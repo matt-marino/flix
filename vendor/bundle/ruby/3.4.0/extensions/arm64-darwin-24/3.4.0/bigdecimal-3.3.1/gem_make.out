@@ -20,17 +20,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.3.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-8b8jhc sitelibdir\=./.gem.20251024-21268-8b8jhc clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-lffuyw sitelibdir\=./.gem.20251029-34278-lffuyw clean
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.3.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-8b8jhc sitelibdir\=./.gem.20251024-21268-8b8jhc
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-lffuyw sitelibdir\=./.gem.20251029-34278-lffuyw
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.3.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-8b8jhc sitelibdir\=./.gem.20251024-21268-8b8jhc install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20251024-21268-8b8jhc
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-lffuyw sitelibdir\=./.gem.20251029-34278-lffuyw install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20251029-34278-lffuyw
 
 current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/bigdecimal-3.3.1/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20251024-21268-8b8jhc sitelibdir\=./.gem.20251024-21268-8b8jhc clean
+make DESTDIR\= sitearchdir\=./.gem.20251029-34278-lffuyw sitelibdir\=./.gem.20251029-34278-lffuyw clean

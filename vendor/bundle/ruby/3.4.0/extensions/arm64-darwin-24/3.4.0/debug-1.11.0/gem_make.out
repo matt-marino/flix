@@ -1,0 +1,19 @@
+current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/Users/matt-marino/.rbenv/versions/3.4.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz clean
+
+current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20251024-21268-d1xjzz/debug
+
+current directory: /Users/matt-marino/Desktop/coding-projects/flix/vendor/bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20251024-21268-d1xjzz sitelibdir\=./.gem.20251024-21268-d1xjzz clean
